@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 18%;
+    background: #FFC107;
+    border-radius: 5px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.layout img {
+    width: 70%;
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    height: 2em;
+    margin-bottom: 3%;
+    background-color: white!important;
+    font-size: 1.1em;
+    border: 2px;
+    border-color: #FAFAFA;
+    padding: 0% 2%;
+    border-style: solid;
+}
+
+.button {
+    background: white;
+    padding: 7% 0%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #FFECB3;
+}
+
+@media only screen and (max-width: 1440px) {
+    .container {
+        padding: 4% 3%;
+        width: 35%;
+    }
+
+    .button {
+        padding: 6% 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 6% 4%;
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 7% 5%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        padding: 9% 6%;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        padding: 12% 6%;
+        width: 85%;
+    }
+}

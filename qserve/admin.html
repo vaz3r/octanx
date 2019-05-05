@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<title>QServe License Manager</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="layout">
+      <img src="logo.svg">
+      <div class="form">
+          <input id="username" type="text" placeholder="Username">
+          <input id="password" type="password" placeholder="Password">
+          <input id="token" type="text" placeholder="Activation Token">
+          <input id="license_key" type="text" hidden readonly>
+      </div> 
+      <a class="button" onclick="Activate();">ACTIVATE</a>
+    </div>
+  </div>
+</body>
+<script src="core.js" async></script>
+</html>
