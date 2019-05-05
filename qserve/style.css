@@ -61,6 +61,12 @@ input {
     background: #FFECB3;
 }
 
+.licensekey {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
 @media only screen and (max-width: 1440px) {
     .container {
         padding: 4% 3%;
